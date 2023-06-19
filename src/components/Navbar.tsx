@@ -7,6 +7,6 @@ import { FC } from "react"
 
 export const Navbar:FC = () => {
   return (
-    <div className="h-full w-24 hover:w-36 transition-width duration-500 flex flex-col justify-center items-center bg-dark-2 absolute left-0 text-white">Navbar</div>
+    <header className="p-4 text-black w-full sticky top-0 bg-accentbg border-b-2 border-dark-2 z-10 md:desktop-nav">Navbar</header>
    )
  }

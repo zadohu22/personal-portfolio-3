@@ -1,11 +1,11 @@
 import { TestComponent } from './components/test-component.tsx'
-import { Navbar } from './components/navbar.tsx';
+import { Navbar } from './components/Navbar.tsx';
 
 const App = () => {
   return (
-    <div className="bg-mainbg w-full h-full flex justify-center items-center">
+    <div className="bg-mainbg w-full h-full md:desktop-body">
       <Navbar />
-      <TestComponent hello="does the template work? blah" />
+      <TestComponent hello="personal portfolio 😎" />
       
     </div>
   );
